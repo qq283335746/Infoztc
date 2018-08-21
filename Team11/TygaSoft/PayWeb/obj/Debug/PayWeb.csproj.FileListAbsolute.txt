@@ -1,0 +1,17 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.PayWeb.dll.config
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.PayWeb.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.PayWeb.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\Intelligencia.UrlRewriter.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.CustomExceptions.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.PayWebHelper.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.SysHelper.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\Newtonsoft.Json.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.CustomExceptions.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.PayWebHelper.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\TygaSoft.SysHelper.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\bin\Intelligencia.UrlRewriter.xml
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\obj\Debug\PayWeb.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\obj\Debug\PayWeb.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\obj\Debug\PayWeb.csproj.CopyComplete
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\obj\Debug\TygaSoft.PayWeb.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWeb\obj\Debug\TygaSoft.PayWeb.pdb

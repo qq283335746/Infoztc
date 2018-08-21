@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewriteRules>
+  <if url="^(.*)/(\?.+)?$">
+    <rewrite exists="$1/Default.aspx" to="$1/Default.aspx$2" />
+  </if>
+  <rewrite url="^/$" to="~/Default.aspx" processing="stop" />
+  <rewrite url="^/t\.html(/)?$" to="~/Login.aspx" processing="stop" />
+  <rewrite url="^/t\.html\?(.*)" to="~/Login.aspx?$1" processing="stop" />
+  <rewrite url="^/y\.html$" to="~/Register.aspx" processing="stop" />
+  
+  <if url="^/a/(.*)">
+    <rewrite url="^/a/t\.html$" to="~/Admin/Default.aspx" processing="stop" />
+    <rewrite url="^/a/t\.html\?(.*)" to="~/Admin/Default.aspx?$1" processing="stop" />
+    <rewrite url="^/a/g\.html$" to="~/Admin/Members/ListUsers.aspx" processing="stop" />
+    <rewrite url="^/a/g\.html\?(.*)" to="~/Admin/Members/ListUsers.aspx?$1" processing="stop" />
+    <rewrite url="^/a/a\.html$" to="~/Admin/Members/AddUserRole.aspx" processing="stop" />
+    <rewrite url="^/a/a\.html\?(.*)" to="~/Admin/Members/AddUserRole.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ty\.html$" to="~/Admin/Members/AddUser.aspx" processing="stop" />
+    <rewrite url="^/a/ty\.html\?(.*)" to="~/Admin/Members/AddUser.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tg\.html$" to="~/Admin/Members/ListRoles.aspx" processing="stop" />
+    <rewrite url="^/a/tg\.html\?(.*)" to="~/Admin/Members/ListRoles.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ta\.html$" to="~/Admin/Members/AddRoleUser.aspx" processing="stop" />
+    <rewrite url="^/a/ta\.html\?(.*)" to="~/Admin/Members/AddRoleUser.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yt\.html$" to="~/Admin/Members/AddRole.aspx" processing="stop" />
+    <rewrite url="^/a/yt\.html\?(.*)" to="~/Admin/Members/AddRole.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yg\.html$" to="~/Admin/Members/UpdatePsw.aspx" processing="stop" />
+    <rewrite url="^/a/yg\.html\?(.*)" to="~/Admin/Members/UpdatePsw.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ya\.html$" to="~/Admin/Sys/ListSysEnum.aspx" processing="stop" />
+    <rewrite url="^/a/ya\.html\?(.*)" to="~/Admin/Sys/ListSysEnum.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ytg\.html$" to="~/Admin/Sys/ListProvinceCity.aspx" processing="stop" />
+    <rewrite url="^/a/ytg\.html\?(.*)" to="~/Admin/Sys/ListProvinceCity.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tuhp\.html$" to="~/Admin/Sys/ListUserHeadPicture.aspx" processing="stop" />
+    <rewrite url="^/a/tuhp\.html\?(.*)" to="~/Admin/Sys/ListUserHeadPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tub\.html$" to="~/Admin/Sys/AddUserBase.aspx" processing="stop" />
+    <rewrite url="^/a/tub\.html\?(.*)" to="~/Admin/Sys/AddUserBase.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/gt\.html$" to="~/Admin/ECShop/ListCategory.aspx" processing="stop" />
+    <rewrite url="^/a/gt\.html\?(.*)" to="~/Admin/ECShop/ListCategory.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gy\.html$" to="~/Admin/ECShop/AddCategory.aspx" processing="stop" />
+    <rewrite url="^/a/gy\.html\?(.*)" to="~/Admin/ECShop/AddCategory.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gg\.html$" to="~/Admin/ECShop/ListBrand.aspx" processing="stop" />
+    <rewrite url="^/a/gg\.html\?(.*)" to="~/Admin/ECShop/ListBrand.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ga\.html$" to="~/Admin/ECShop/AddBrand.aspx" processing="stop" />
+    <rewrite url="^/a/ga\.html\?(.*)" to="~/Admin/ECShop/AddBrand.aspx?$1" processing="stop" />
+    <rewrite url="^/a/at\.html$" to="~/Admin/ECShop/ListProduct.aspx" processing="stop" />
+    <rewrite url="^/a/at\.html\?(.*)" to="~/Admin/ECShop/ListProduct.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ay\.html$" to="~/Admin/ECShop/AddProduct.aspx" processing="stop" />
+    <rewrite url="^/a/ay\.html\?(.*)" to="~/Admin/ECShop/AddProduct.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ag\.html$" to="~/Admin/ECShop/ListProductPicture.aspx" processing="stop" />
+    <rewrite url="^/a/ag\.html\?(.*)" to="~/Admin/ECShop/ListProductPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/aa\.html$" to="~/Admin/ECShop/ListSizePicture.aspx" processing="stop" />
+    <rewrite url="^/a/aa\.html\?(.*)" to="~/Admin/ECShop/ListSizePicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tya\.html$" to="~/Admin/ECShop/ListCategoryPicture.aspx" processing="stop" />
+    <rewrite url="^/a/tya\.html\?(.*)" to="~/Admin/ECShop/ListCategoryPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ytt\.html$" to="~/Admin/ECShop/ListSupplier.aspx" processing="stop" />
+    <rewrite url="^/a/ytt\.html\?(.*)" to="~/Admin/ECShop/ListSupplier.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yty\.html$" to="~/Admin/ECShop/AddSupplier.aspx" processing="stop" />
+    <rewrite url="^/a/yty\.html\?(.*)" to="~/Admin/ECShop/AddSupplier.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yta\.html$" to="~/Admin/ECShop/ListCart.aspx" processing="stop" />
+    <rewrite url="^/a/yta\.html\?(.*)" to="~/Admin/ECShop/ListCart.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yya\.html$" to="~/Admin/ECShop/ListOrder.aspx" processing="stop" />
+    <rewrite url="^/a/yya\.html\?(.*)" to="~/Admin/ECShop/ListOrder.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/tgt\.html$" to="~/Admin/AboutSite/ListContentType.aspx" processing="stop" />
+    <rewrite url="^/a/tgt\.html\?(.*)" to="~/Admin/AboutSite/ListContentType.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ttt\.html$" to="~/Admin/AboutSite/ListAnnouncement.aspx" processing="stop" />
+    <rewrite url="^/a/ttt\.html\?(.*)" to="~/Admin/AboutSite/ListAnnouncement.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tat\.html$" to="~/Admin/AboutSite/AddAnnouncement.aspx" processing="stop" />
+    <rewrite url="^/a/tat\.html\?(.*)" to="~/Admin/AboutSite/AddAnnouncement.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tyt\.html$" to="~/Admin/AboutSite/ListNotice.aspx" processing="stop" />
+    <rewrite url="^/a/tyt\.html\?(.*)" to="~/Admin/AboutSite/ListNotice.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tty\.html$" to="~/Admin/AboutSite/AddNotice.aspx" processing="stop" />
+    <rewrite url="^/a/tty\.html\?(.*)" to="~/Admin/AboutSite/AddNotice.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ttg\.html$" to="~/Admin/AboutSite/ListAdvertisement.aspx" processing="stop" />
+    <rewrite url="^/a/ttg\.html\?(.*)" to="~/Admin/AboutSite/ListAdvertisement.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tta\.html$" to="~/Admin/AboutSite/AddAdvertisement.aspx" processing="stop" />
+    <rewrite url="^/a/tta\.html\?(.*)" to="~/Admin/AboutSite/AddAdvertisement.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yyt\.html$" to="~/Admin/AboutSite/ListContentPicture.aspx" processing="stop" />
+    <rewrite url="^/a/yyt\.html\?(.*)" to="~/Admin/AboutSite/ListContentPicture.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/tadvert.html(.*)" to="~/Admin/Advert/ListAdvertSubject.aspx$1" processing="stop" />
+    <rewrite url="^/a/yadvert.html(.*)" to="~/Admin/Advert/AddAdvertSubject.aspx$1" processing="stop" />
+    <rewrite url="^/a/gadvert.html(.*)" to="~/Admin/Advert/ListPictureAdStartup.aspx$1" processing="stop" />
+
+    <rewrite url="^/a/tyg\.html$" to="~/Admin/Serve/ListServicePicture.aspx" processing="stop" />
+    <rewrite url="^/a/tyg\.html\?(.*)" to="~/Admin/Serve/ListServicePicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tgy\.html$" to="~/Admin/Serve/ListService.aspx" processing="stop" />
+    <rewrite url="^/a/tgy\.html\?(.*)" to="~/Admin/Serve/ListService.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/yay\.html$" to="~/Admin/Question/ListQuestionBank.aspx" processing="stop" />
+    <rewrite url="^/a/yay\.html\?(.*)" to="~/Admin/Question/ListQuestionBank.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yag\.html$" to="~/Admin/Question/AddQuestionBank.aspx" processing="stop" />
+    <rewrite url="^/a/yag\.html\?(.*)" to="~/Admin/Question/AddQuestionBank.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yaa\.html$" to="~/Admin/Question/ListQuestionSubject.aspx" processing="stop" />
+    <rewrite url="^/a/yaa\.html\?(.*)" to="~/Admin/Question/ListQuestionSubject.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gtt\.html$" to="~/Admin/Question/AddQuestionSubject.aspx" processing="stop" />
+    <rewrite url="^/a/gtt\.html\?(.*)" to="~/Admin/Question/AddQuestionSubject.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gty\.html$" to="~/Admin/Question/ListAnswerOption.aspx" processing="stop" />
+    <rewrite url="^/a/gty\.html\?(.*)" to="~/Admin/Question/ListAnswerOption.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gtg\.html$" to="~/Admin/Question/AddAnswerOption.aspx" processing="stop" />
+    <rewrite url="^/a/gtg\.html\?(.*)" to="~/Admin/Question/AddAnswerOption.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tli\.html$" to="~/Admin/Question/ListIssue.aspx" processing="stop" />
+    <rewrite url="^/a/tli\.html\?(.*)" to="~/Admin/Question/ListIssue.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yai\.html$" to="~/Admin/Question/AddIssue.aspx" processing="stop" />
+    <rewrite url="^/a/yai\.html\?(.*)" to="~/Admin/Question/AddIssue.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ttv\.html$" to="~/Admin/TVVideo/ListHwtv.aspx" processing="stop" />
+    <rewrite url="^/a/ttv\.html\?(.*)" to="~/Admin/TVVideo/ListHwtv.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ytv\.html$" to="~/Admin/TVVideo/AddHwtv.aspx" processing="stop" />
+    <rewrite url="^/a/ytv\.html\?(.*)" to="~/Admin/TVVideo/AddHwtv.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gtv\.html$" to="~/Admin/TVVideo/ListTVProgram.aspx" processing="stop" />
+    <rewrite url="^/a/gtv\.html\?(.*)" to="~/Admin/TVVideo/ListTVProgram.aspx?$1" processing="stop" />
+    <rewrite url="^/a/atv\.html$" to="~/Admin/TVVideo/AddTVProgram.aspx" processing="stop" />
+    <rewrite url="^/a/atv\.html\?(.*)" to="~/Admin/TVVideo/AddTVProgram.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tlottery\.html$" to="~/Admin/Lottery/ListLottery.aspx" processing="stop" />
+    <rewrite url="^/a/tlottery\.html\?(.*)" to="~/Admin/Lottery/ListLottery.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ylottery\.html$" to="~/Admin/Lottery/AddLottery.aspx" processing="stop" />
+    <rewrite url="^/a/ylottery\.html\?(.*)" to="~/Admin/Lottery/AddLottery.aspx?$1" processing="stop" />
+    <rewrite url="^/a/glottery\.html$" to="~/Admin/Lottery/LotteryUrlConfig.aspx" processing="stop" />
+    <rewrite url="^/a/glottery\.html\?(.*)" to="~/Admin/Lottery/LotteryUrlConfig.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ternie\.html$" to="~/Admin/Lottery/ListErnie.aspx" processing="stop" />
+    <rewrite url="^/a/ternie\.html\?(.*)" to="~/Admin/Lottery/ListErnie.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yernie\.html$" to="~/Admin/Lottery/AddErnie.aspx" processing="stop" />
+    <rewrite url="^/a/yernie\.html\?(.*)" to="~/Admin/Lottery/AddErnie.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/ttopic\.html$" to="~/Admin/Topic/ListTopicSubject.aspx" processing="stop" />
+    <rewrite url="^/a/ttopic\.html\?(.*)" to="~/Admin/Topic/ListTopicSubject.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ytopic\.html$" to="~/Admin/Topic/AddTopicSubject.aspx" processing="stop" />
+    <rewrite url="^/a/ytopic\.html\?(.*)" to="~/Admin/Topic/AddTopicSubject.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gtopic\.html$" to="~/Admin/Topic/ListTopicComment.aspx" processing="stop" />
+    <rewrite url="^/a/gtopic\.html\?(.*)" to="~/Admin/Topic/ListTopicComment.aspx?$1" processing="stop" />
+    <rewrite url="^/a/atopic\.html$" to="~/Admin/Topic/AddTopicComment.aspx" processing="stop" />
+    <rewrite url="^/a/atopic\.html\?(.*)" to="~/Admin/Topic/AddTopicComment.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tttopic\.html$" to="~/Admin/Topic/ListCommunionPicture.aspx" processing="stop" />
+    <rewrite url="^/a/tttopic\.html\?(.*)" to="~/Admin/Topic/ListCommunionPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tytopic\.html$" to="~/Admin/Topic/PictureTest.aspx" processing="stop" />
+    <rewrite url="^/a/tytopic\.html\?(.*)" to="~/Admin/Topic/PictureTest.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/ygt\.html$" to="~/Handlers/Admin/ECShop/HandlerProductPicture.ashx" processing="stop" />
+    <rewrite url="^/a/ygt\.html\?(.*)" to="~/Handlers/Admin/ECShop/HandlerProductPicture.ashx?$1" processing="stop" />
+    <rewrite url="^/a/ygy\.html$" to="~/Handlers/Admin/ECShop/HandlerSizePicture.ashx" processing="stop" />
+    <rewrite url="^/a/ygy\.html\?(.*)" to="~/Handlers/Admin/ECShop/HandlerSizePicture.ashx?$1" processing="stop" />
+    <rewrite url="^/a/ygg\.html$" to="~/Handlers/Admin/HandlerContentPicture.ashx" processing="stop" />
+    <rewrite url="^/a/ygg\.html\?(.*)" to="~/Handlers/Admin/HandlerContentPicture.ashx?$1" processing="stop" />
+    <rewrite url="^/a/yga\.html$" to="~/Handlers/Admin/Serve/HandlerServicePicture.ashx" processing="stop" />
+    <rewrite url="^/a/yga\.html\?(.*)" to="~/Handlers/Admin/Serve/HandlerServicePicture.ashx?$1" processing="stop" />
+    <rewrite url="^/a/yat\.html$" to="~/Handlers/Admin/ECShop/HandlerCategoryPicture.ashx" processing="stop" />
+    <rewrite url="^/a/yat\.html\?(.*)" to="~/Handlers/Admin/ECShop/HandlerCategoryPicture.ashx?$1" processing="stop" />
+
+    <rewrite url="^/a/tgg\.html$" to="~/Templates/Admin/AddServiceVote.aspx" processing="stop" />
+    <rewrite url="^/a/tgg\.html\?(.*)" to="~/Templates/Admin/AddServiceVote.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tga\.html$" to="~/Templates/Admin/AddServiceContent.aspx" processing="stop" />
+    <rewrite url="^/a/tga\.html\?(.*)" to="~/Templates/Admin/AddServiceContent.aspx?$1" processing="stop" />
+    <rewrite url="^/a/taa\.html$" to="~/Templates/Admin/AddServiceLink.aspx" processing="stop" />
+    <rewrite url="^/a/taa\.html\?(.*)" to="~/Templates/Admin/AddServiceLink.aspx?$1" processing="stop" />
+
+    <rewrite url="^/a/tactivity\.html$" to="~/Admin/ActivityNew/ListActivitySubject.aspx" processing="stop" />
+    <rewrite url="^/a/tactivity\.html\?(.*)" to="~/Admin/ActivityNew/ListActivitySubject.aspx?$1" processing="stop" />
+    <rewrite url="^/a/yactivity\.html$" to="~/Admin/ActivityNew/AddActivitySubject.aspx" processing="stop" />
+    <rewrite url="^/a/yactivity\.html\?(.*)" to="~/Admin/ActivityNew/AddActivitySubject.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gactivity\.html$" to="~/Admin/ActivityNew/ListActivityPlayer.aspx" processing="stop" />
+    <rewrite url="^/a/gactivity\.html\?(.*)" to="~/Admin/ActivityNew/ListActivityPlayer.aspx?$1" processing="stop" />
+    <rewrite url="^/a/aactivity\.html$" to="~/Admin/ActivityNew/AddActivityPlayer.aspx" processing="stop" />
+    <rewrite url="^/a/aactivity\.html\?(.*)" to="~/Admin/ActivityNew/AddActivityPlayer.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ttactivity\.html$" to="~/Admin/ActivityNew/ListVoteToPlayer.aspx" processing="stop" />
+    <rewrite url="^/a/ttactivity\.html\?(.*)" to="~/Admin/ActivityNew/ListVoteToPlayer.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tyactivity\.html$" to="~/Admin/ActivityNew/ListActivityApply.aspx" processing="stop" />
+    <rewrite url="^/a/tyactivity\.html\?(.*)" to="~/Admin/ActivityNew/ListActivityApply.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tgactivity\.html$" to="~/Admin/ActivityNew/ListActivityPhotoPicture.aspx" processing="stop" />
+    <rewrite url="^/a/tgactivity\.html\?(.*)" to="~/Admin/ActivityNew/ListActivityPhotoPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/taactivity\.html$" to="~/Admin/ActivityNew/ListActivityPlayerPhotoPicture.aspx" processing="stop" />
+    <rewrite url="^/a/taactivity\.html\?(.*)" to="~/Admin/ActivityNew/ListActivityPlayerPhotoPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ytactivity.html(.*)" to="~/Admin/ActivityNew/ListPictureScratchLotto.aspx$1" processing="stop" />
+    <rewrite url="^/a/yyactivity.html(.*)" to="~/Admin/ActivityNew/ListActivityPrize.aspx$1" processing="stop" />
+    <rewrite url="^/a/ygactivity.html(.*)" to="~/Admin/ActivityNew/AddActivityPrize.aspx$1" processing="stop" />
+    <rewrite url="^/a/yaactivity.html(.*)" to="~/Admin/ActivityNew/ListWinningRecord.aspx$1" processing="stop" />
+    <rewrite url="^/a/gtactivity.html(.*)" to="~/Admin/ActivityNew/AddActivityPush.aspx$1" processing="stop" />
+
+	<rewrite url="^/a/tinfor\.html$" to="~/Admin/Ad/ListInformation.aspx" processing="stop" />
+	<rewrite url="^/a/tinfor\.html\?(.*)" to="~/Admin/Ad/ListInformation.aspx?$1" processing="stop" />
+	<rewrite url="^/a/yinfor\.html$" to="~/Admin/Ad/AddInformation.aspx" processing="stop" />
+	<rewrite url="^/a/yinfor\.html\?(.*)" to="~/Admin/Ad/AddInformation.aspx?$1" processing="stop" />
+	<rewrite url="^/a/tinforad\.html$" to="~/Admin/Ad/ListInformationAd.aspx" processing="stop" />
+	<rewrite url="^/a/tinforad\.html\?(.*)" to="~/Admin/Ad/ListInformationAd.aspx?$1" processing="stop" />
+	<rewrite url="^/a/yinforad\.html$" to="~/Admin/Ad/AddInformationAd.aspx" processing="stop" />
+	<rewrite url="^/a/yinforad\.html\?(.*)" to="~/Admin/Ad/AddInformationAd.aspx?$1" processing="stop" />
+
+	<rewrite url="^/a/tpush\.html$" to="~/Admin/PushMessage/ListPushMsg.aspx" processing="stop" />
+	<rewrite url="^/a/tpush\.html\?(.*)" to="~/Admin/PushMessage/ListPushMsg.aspx?$1" processing="stop" />
+	<rewrite url="^/a/ypush\.html$" to="~/Admin/PushMessage/AddPushMsg.aspx" processing="stop" />
+	<rewrite url="^/a/ypush\.html\?(.*)" to="~/Admin/PushMessage/AddPushMsg.aspx?$1" processing="stop" />
+  </if>
+  
+  <if url="^/t/(.*)">
+    
+    <rewrite url="^/t/t\.html$" to="~/Templates/Admin/AddProductItem.aspx" processing="stop" />
+    <rewrite url="^/t/t\.html\?(.*)" to="~/Templates/Admin/AddProductItem.aspx?$1" processing="stop" />
+    <rewrite url="^/t/y\.html$" to="~/Templates/Admin/AddServiceItem.aspx" processing="stop" />
+    <rewrite url="^/t/y\.html\?(.*)" to="~/Templates/Admin/AddServiceItem.aspx?$1" processing="stop" />
+    <rewrite url="^/t/g\.html$" to="~/Templates/Admin/AddProductAttr.aspx" processing="stop" />
+    <rewrite url="^/t/g\.html\?(.*)" to="~/Templates/Admin/AddProductAttr.aspx?$1" processing="stop" />
+    <rewrite url="^/t/a\.html$" to="~/Templates/Admin/AddProductDetail.aspx" processing="stop" />
+    <rewrite url="^/t/a\.html\?(.*)" to="~/Templates/Admin/AddProductDetail.aspx?$1" processing="stop" />
+    <rewrite url="^/t/tt\.html$" to="~/Templates/Admin/AddProductSizePicture.aspx" processing="stop" />
+    <rewrite url="^/t/tt\.html\?(.*)" to="~/Templates/Admin/AddProductSizePicture.aspx?$1" processing="stop" />
+    <rewrite url="^/t/ty\.html$" to="~/Templates/Admin/AddProductSize.aspx" processing="stop" />
+    <rewrite url="^/t/ty\.html\?(.*)" to="~/Templates/Admin/AddProductSize.aspx?$1" processing="stop" />
+    <rewrite url="^/t/tg\.html$" to="~/Templates/Admin/AddProductStock.aspx" processing="stop" />
+    <rewrite url="^/t/tg\.html\?(.*)" to="~/Templates/Admin/AddProductStock.aspx?$1" processing="stop" />
+    <rewrite url="^/t/ta\.html$" to="~/Templates/Admin/AddProductImage.aspx" processing="stop" />
+    <rewrite url="^/t/ta\.html\?(.*)" to="~/Templates/Admin/AddProductImage.aspx?$1" processing="stop" />
+    <rewrite url="^/t/yt\.html$" to="~/Templates/Admin/DlgSelectPicture.aspx" processing="stop" />
+    <rewrite url="^/t/yt\.html\?(.*)" to="~/Templates/Admin/DlgSelectPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/t/yy\.html$" to="~/Templates/Admin/DlgUploadPicture.aspx" processing="stop" />
+    <rewrite url="^/t/yy\.html\?(.*)" to="~/Templates/Admin/DlgUploadPicture.aspx?$1" processing="stop" />
+    <rewrite url="^/t/ypicture.html(.*)" to="~/Templates/Admin/DlgPictureUpload.aspx$1" processing="stop" />
+    <rewrite url="^/t/yg\.html$" to="~/Templates/UploadPicture.htm" processing="stop" />
+    <rewrite url="^/t/yg\.html\?(.*)" to="~/Templates/UploadPicture.htm?$1" processing="stop" />
+    <rewrite url="^/t/ya\.html$" to="~/Templates/Admin/Lottery/DlgErnieItem.aspx" processing="stop" />
+    <rewrite url="^/t/ya\.html\?(.*)" to="~/Templates/Admin/Lottery/DlgErnieItem.aspx?$1" processing="stop" />
+
+    <rewrite url="^/t/tpicture.html(.*)" to="~/Templates/Admin/DlgPictureSelect.aspx$1" processing="stop" />
+    <rewrite url="^/t/ypicture.html(.*)" to="~/Templates/Admin/DlgPictureUpload.aspx$1" processing="stop" />
+    <rewrite url="^/t/gpicture.html(.*)" to="~/Templates/UploadPicture.htm$1" processing="stop" />
+  </if>
+
+  <if url="^/h/(.*)">
+    <rewrite url="^/h/t\.html$" to="~/Handlers/Admin/ECShop/HandlerProduct.ashx" processing="stop" />
+    <rewrite url="^/h/t\.html\?(.*)" to="~/Handlers/Admin/ECShop/HandlerProduct.ashx?$1" processing="stop" />
+    <rewrite url="^/h/y\.html$" to="~/Handlers/Admin/Serve/HandlerService.ashx" processing="stop" />
+    <rewrite url="^/h/y\.html\?(.*)" to="~/Handlers/Admin/Serve/HandlerService.ashx?$1" processing="stop" />
+    <rewrite url="^/h/g\.html$" to="~/Handlers/Admin/ECShop/HandlerBrand.ashx" processing="stop" />
+    <rewrite url="^/h/g\.html\?(.*)" to="~/Handlers/Admin/ECShop/HandlerBrand.ashx?$1" processing="stop" />
+    <rewrite url="^/h/a\.html$" to="~/Handlers/Admin/ECShop/HandlerCategory.ashx" processing="stop" />
+    <rewrite url="^/h/a\.html\?(.*)" to="~/Handlers/Admin/ECShop/HandlerCategory.ashx?$1" processing="stop" />
+    <rewrite url="^/h/tt\.html$" to="~/Handlers/Admin/HandlerContentType.ashx" processing="stop" />
+    <rewrite url="^/h/tt\.html\?(.*)" to="~/Handlers/Admin/HandlerContentType.ashx?$1" processing="stop" />
+    <rewrite url="^/h/ty\.html$" to="~/Handlers/Admin/HandlerKindeditor.ashx" processing="stop" />
+    <rewrite url="^/h/ty\.html\?(.*)" to="~/Handlers/Admin/HandlerKindeditor.ashx?$1" processing="stop" />
+    <rewrite url="^/h/tg\.html$" to="~/Handlers/Admin/HandlerUpload.ashx" processing="stop" />
+    <rewrite url="^/h/tg\.html\?(.*)" to="~/Handlers/Admin/HandlerUpload.ashx?$1" processing="stop" />
+    <rewrite url="^/h/ta\.html$" to="~/Handlers/Admin/HandlerErnie.ashx" processing="stop" />
+    <rewrite url="^/h/ta\.html\?(.*)" to="~/Handlers/Admin/HandlerErnie.ashx?$1" processing="stop" />
+    <rewrite url="^/h/tactivity\.html(.*)" to="~/Handlers/Admin/HandlerActivity.ashx$1" processing="stop" />
+    <rewrite url="^/h/tupload.html(.*)" to="~/Handlers/Admin/HandlerUpload.ashx$1" processing="stop" />
+	<rewrite url="^/h/tinfor\.html(.*)" to="~/Handlers/Admin/HandlerInformation.ashx$1" processing="stop" />
+	<rewrite url="^/h/tinforad\.html(.*)" to="~/Handlers/Admin/HandlerInformationAd.ashx$1" processing="stop" />
+	<rewrite url="^/h/tpush\.html(.*)" to="~/Handlers/Admin/HandlerPushMsg.ashx$1" processing="stop" />
+  </if>
+  <if url="^/m/(.*)">
+    <rewrite url="^/m/t\.html$" to="~/Mobile/Shares/Ernie/Index.aspx" processing="stop" />
+    <rewrite url="^/m/t\.html\?(.*)" to="~/Mobile/Shares/Ernie/Index.aspx?$1" processing="stop" />
+    <rewrite url="^/m/yernie\.html$" to="~/Mobile/Users/Ernie/Index.aspx" processing="stop" />
+    <rewrite url="^/m/yernie\.html\?(.*)" to="~/Mobile/Users/Ernie/Index.aspx?$1" processing="stop" />
+  </if>
+
+</rewriteRules>

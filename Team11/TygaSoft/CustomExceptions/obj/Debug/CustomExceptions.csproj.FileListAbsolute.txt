@@ -1,0 +1,6 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CustomExceptions\bin\Debug\TygaSoft.CustomExceptions.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CustomExceptions\bin\Debug\TygaSoft.CustomExceptions.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CustomExceptions\obj\Debug\CustomExceptions.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CustomExceptions\obj\Debug\CustomExceptions.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CustomExceptions\obj\Debug\TygaSoft.CustomExceptions.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CustomExceptions\obj\Debug\TygaSoft.CustomExceptions.pdb

@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mobile.master.cs" Inherits="TygaSoft.Web.Mobile.Mobile" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>天涯孤岸软件 国内个人软件首选</title>
+    <link rel="stylesheet" type="text/css" href="/Scripts/Plugins/jeasyui/themes/metro/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="/Scripts/Plugins/jeasyui/themes/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="/Scripts/Plugins/jeasyui/themes/icon.css" />
+    <link href="/Styles/Main.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/Mobile.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/Plugins/jeasyui/jquery.min.js"></script>
+    <script src="/Scripts/Plugins/jeasyui/jquery.easyui.min.js"></script>
+    <script src="/Scripts/Plugins/jeasyui/jquery.easyui.mobile.js"></script>
+    <script src="/Scripts/Plugins/jeasyui/locale/easyui-lang-zh_CN.js"></script>
+    <script src="/Scripts/JeasyuiExtend.js"></script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body class="easyui-layout" style="height:854px; width:415px;">
+    <form id="form1" runat="server">
+     <asp:ContentPlaceHolder ID="cphContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

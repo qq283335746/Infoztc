@@ -1,0 +1,10 @@
+﻿
+.tab-region li{
+  float:left; margin-right:10px; padding:5px;
+}
+.tab-region .select{
+  background:#4C9ED9; color:#FFFFFF;
+}
+.tab-region .select a{
+  color:#FFFFFF;
+}

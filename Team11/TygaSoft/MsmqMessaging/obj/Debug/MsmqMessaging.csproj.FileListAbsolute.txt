@@ -1,0 +1,9 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.MsmqMessaging.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.MsmqMessaging.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.IMessaging.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\bin\Debug\TygaSoft.IMessaging.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\obj\Debug\MsmqMessaging.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\obj\Debug\MsmqMessaging.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\obj\Debug\MsmqMessaging.csproj.CopyComplete
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\obj\Debug\TygaSoft.MsmqMessaging.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\MsmqMessaging\obj\Debug\TygaSoft.MsmqMessaging.pdb

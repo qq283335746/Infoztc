@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="/" title="首 页"  description="" roles="*">
+
+    <siteMapNode url="~/a/t.html" title="我的桌面" description="" roles="Administrators,System">
+
+      <siteMapNode url="" title="分类品牌管理" description="" roles="Administrators,System">
+        <siteMapNode url="/a/gt.html" title="分类列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/gy.html" title="新建/编辑分类" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/gg.html" title="品牌列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/ga.html" title="新建/编辑品牌" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/gpicture.html" title="分类相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/ypicture.html" title="品牌相册管理" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="商品管理" description="" roles="Administrators,System">
+        <siteMapNode url="/a/at.html" title="商品列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/ay.html" title="新建/编辑商品" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/apicture.html" title="商品相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/ttpicture.html" title="尺码相册管理" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="订单管理" description="" roles="Administrators,System">
+        <siteMapNode url="/a/yta.html" title="购物车列表" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/yya.html" title="订单列表" description="" roles="Administrators,System"></siteMapNode>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="供应商管理" description="" roles="Administrators,System">
+        <siteMapNode url="/a/ytt.html" title="供应商列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/yty.html" title="新建/编辑供应商" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="服务管理" description="" roles="Administrators,System">
+        <siteMapNode url="/a/tgy.html" title="服务管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/tga.html" title="服务企业信息管理" description="hide" roles="Administrators,System">
+          <siteMapNode url="/a/tag.html" title="新建/编辑企业信息" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/tay.html" title="投票候选人管理" description="hide" roles="Administrators,System">
+          <siteMapNode url="/a/taa.html" title="新建/编辑投票候选人" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/typicture.html" title="服务相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/tgpicture.html" title="候选人相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/tapicture.html" title="链接相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/ytpicture.html" title="图文相册管理" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="公告资讯管理" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tadvert.html" title="启动页管理" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/yadvert.html" title="新建/编辑启动页" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/ttt.html" title="公告列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/tat.html" title="新建/编辑公告" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/tyt.html" title="资讯列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/tty.html" title="新建/编辑资讯" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/ttg.html" title="广告列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/tta.html" title="新建/编辑广告" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/tpicture.html" title="广告相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/yyt.html" title="内容相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/gadvert.html" title="启动页相册管理" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="活动管理" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tactivity.html" title="活动列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/yactivity.html" title="新建/编辑活动" description="hide" roles="Administrators,System"></siteMapNode>
+          <siteMapNode url="http://www.tygaweb.com:8081/a/gtactivity.html" title="新建/编辑活动推送" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/gactivity.html" title="选手列表" description="hide" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/aactivity.html" title="新建/编辑选手" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/ttactivity.html" title="投票统计" description="hide" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tyactivity.html" title="报名统计" description="hide" roles="Administrators,System"></siteMapNode>
+
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tgactivity.html" title="活动相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/taactivity.html" title="活动选手相册管理" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="知识竞猜管理" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/yay.html" title="题库列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/yag.html" title="新建/编辑题库" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/yaa.html" title="题目列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/gtt.html" title="新建/编辑题目" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/gty.html" title="答案选项列表" description="hide" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/gtg.html" title="新建/编辑答案选项" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tli.html" title="发布列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/yai.html" title="发布" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="话题管理" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/ttopic.html" title="话题列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/ytopic.html" title="新建/编辑话题" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/gtopic.html" title="话题评论列表" description="hide" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/atopic.html" title="新建/编辑话题评论" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tttopic.html" title="话题相册管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tytopic.html" title="上传图片测试页" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="电视视频" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/ttv.html" title="电视视频列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/ytv.html" title="新建/编辑电视视频" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <!--<siteMapNode url="/a/gtv.html" title="电视视频二级列表" description="" roles="Administrators,System">
+            <siteMapNode url="/a/atv.html" title="新建/编辑电视视频二级" description="hide" roles="Administrators,System"></siteMapNode>
+          </siteMapNode>-->
+      </siteMapNode>
+
+      <siteMapNode url="" title="彩票" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tlottery.html" title="彩票列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/ylottery.html" title="新建/编辑彩票" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/glottery.html" title="彩票配置" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="摇奖" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/ternie.html" title="摇奖设定列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/yernie.html" title="新建/编辑摇奖设定" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="站点管理" description="" roles="Administrators,System">
+        <siteMapNode url="/a/taboutsite.html" title="站点内容列表" description="" roles="Administrators,System">
+          <siteMapNode url="/a/yaboutsite.html" title="新建/编辑内容" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="/a/gaboutsite.html" title="内容相册管理" description="hide" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+      
+      <siteMapNode url="" title="资讯信息管理" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tinfor.html" title="资讯信息列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/yinfor.html" title="新建/编辑资讯" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tinforad.html" title="资讯广告列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/yinforad.html" title="新建/编辑广告" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="推送管理" description="" roles="Administrators,System">
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tpush.html" title="推送列表" description="" roles="Administrators,System">
+          <siteMapNode url="http://www.tygaweb.com:8081/a/ypush.html" title="新建推送" description="hide" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="系统管理" description="" roles="Administrators,System">
+
+        <siteMapNode url="/a/ytg.html" title="省市区管理" description="" roles="Administrators,System"></siteMapNode>
+
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tuhp.html" title="用户头像管理" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="http://www.tygaweb.com:8081/a/tub.html" title="个人信息" description="" roles="Administrators,System"></siteMapNode>
+
+        <siteMapNode url="" title="用户角色管理" description="" roles="Administrators,System">
+          <siteMapNode url="/a/g.html" title="用户列表" description="" roles="Administrators,System">
+            <siteMapNode url="/a/ty.html" title="新建/修改用户" description="hide" roles="Administrators,System"></siteMapNode>
+            <siteMapNode url="/a/a.html" title="用户角色关系分配" description="hide" roles="Administrators,System"></siteMapNode>
+          </siteMapNode>
+          <siteMapNode url="/a/tg.html" title="角色列表" description="" roles="Administrators,System">
+            <siteMapNode url="/a/yt.html" title="新建/修改角色" description="hide" roles="Administrators,System"></siteMapNode>
+            <siteMapNode url="/a/ta.html" title="角色用戶关系分配" description="hide" roles="Administrators,System"></siteMapNode>
+          </siteMapNode>
+          <siteMapNode url="/a/yg.html" title="修改密码" description="" roles="Administrators,System"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="/a/tgt.html" title="类别字典" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/ya.html" title="数据字典" description="" roles="Administrators,System"></siteMapNode>
+        <siteMapNode url="/a/yay.html" title="日志管理" description="" roles="Administrators,System"></siteMapNode>
+      </siteMapNode>
+
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

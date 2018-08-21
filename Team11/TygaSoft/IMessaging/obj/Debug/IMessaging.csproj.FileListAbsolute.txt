@@ -1,0 +1,5 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IMessaging\bin\Debug\TygaSoft.IMessaging.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IMessaging\bin\Debug\TygaSoft.IMessaging.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IMessaging\obj\Debug\IMessaging.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IMessaging\obj\Debug\TygaSoft.IMessaging.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IMessaging\obj\Debug\TygaSoft.IMessaging.pdb

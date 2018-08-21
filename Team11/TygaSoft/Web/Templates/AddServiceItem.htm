@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form id="dlgFm" method="post">
+        
+        <div class="row">
+            <span class="fl rl"><b class="cr">*</b>名称：</span>
+            <div class="fl ml10">
+                <input type="text" id="txtName" name="txtName" tabindex="1" maxlength="30" class="easyui-validatebox mtxt" data-options="required:true" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="rl"><b class="cr">*</b>图片：</span>
+            <div class="fl ml10">
+                <img id="imgServicePicture" src="../../Images/nopic.gif" alt="上传图片" width="120px" height="100px" onclick="ServicePicture.DlgSingle()" /><br />
+                <input type="hidden" />
+                <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="ServicePicture.DlgSingle()">选 择</a>
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="rl">Url：</span>
+            <div class="fl ml10">
+                <input type="text" id="txtUrl" class="mtxt" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="fl rl">服务类别：</span>
+            <div class="fl ml10">
+                <select id="cbbServeType" class="easyui-combobox" style="width:200px;"
+                    data-options="url:'../../Handlers/Admin/HandlerSysEnum.ashx?reqName=GetJsonForCombobox&enumCode=ServiceCategory',method:'get',valueField:'id',textField:'text',onLoadSuccess:dlgFun.OnCbbServeTypeLoad,required:true">
+                </select>
+            </div>
+            <span class="clr"></span>
+        </div>
+
+        <input type="hidden" id="hId" value="" />
+
+    </form>
+
+    <div id="dlgServicePicture"></div>
+    <script type="text/javascript" src="../Scripts/Admin/Serve/ServicePicture.js"></script>
+
+    <script type="text/javascript">
+
+        var dlgFun = {
+            Init: function () {
+                var rowData = ListServiceItem.RowData;
+                if (rowData != null) {
+                    dlgFun.Edit(rowData);
+                }
+            },
+            OnCbbServeTypeLoad: function () {
+                var rowData = ListServiceItem.RowData;
+                if (rowData != null) {
+                    $("#cbbServeType").combobox('select', rowData.f2);
+                }
+            },
+            Add: function () {
+                $('#dlgFm').form('clear');
+            },
+            Edit: function (rowData) {
+
+                $('#dlgFm').form('clear');
+                $('#txtName').val(rowData.f4);
+                if ($.trim(rowData.f1) != "") {
+                    $("#imgServicePicture").attr("src", rowData.f8);
+                    $("#imgServicePicture").parent().find("input[type=hidden]").val(rowData.f1);
+                }
+                $("#txtUrl").val(rowData.f5);
+                $('#hId').val(rowData.f0);
+            }
+        }
+
+        $(function () {
+            dlgFun.Init();
+        })
+    </script>
+</body>
+</html>

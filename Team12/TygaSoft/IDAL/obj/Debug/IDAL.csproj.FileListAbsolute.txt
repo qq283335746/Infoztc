@@ -1,0 +1,9 @@
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\bin\Debug\TygaSoft.IDAL.dll
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\bin\Debug\TygaSoft.IDAL.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\bin\Debug\TygaSoft.Model.dll
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\bin\Debug\TygaSoft.Model.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\obj\Debug\IDAL.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\obj\Debug\IDAL.csproj.CopyComplete
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\obj\Debug\TygaSoft.IDAL.dll
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\IDAL\obj\Debug\TygaSoft.IDAL.pdb

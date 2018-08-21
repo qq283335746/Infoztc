@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{437A3E96-72E1-47C5-BBB1-9E5FC3BE7BC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TygaSoft.IDAL</RootNamespace>
+    <AssemblyName>TygaSoft.IDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCode\IActivityPhotoPicture.cs" />
+    <Compile Include="AutoCode\IActivityPicture.cs" />
+    <Compile Include="AutoCode\IActivityPictureNew.cs" />
+    <Compile Include="AutoCode\IActivityPlayer.cs" />
+    <Compile Include="AutoCode\IActivityPlayerNew.cs" />
+    <Compile Include="AutoCode\IActivityPlayerPhotoPicture.cs" />
+    <Compile Include="AutoCode\IActivityPrize.cs" />
+    <Compile Include="AutoCode\IActivityQuestionBank.cs" />
+    <Compile Include="AutoCode\IActivityRelease.cs" />
+    <Compile Include="AutoCode\IActivitySignUp.cs" />
+    <Compile Include="AutoCode\IActivitySubject.cs" />
+    <Compile Include="AutoCode\IActivitySubjectNew.cs" />
+    <Compile Include="AutoCode\IAdvertPicture.cs" />
+    <Compile Include="AutoCode\IAdvertSubject.cs" />
+    <Compile Include="AutoCode\IAnswerOption.cs" />
+    <Compile Include="AutoCode\IAnswerStatistics.cs" />
+    <Compile Include="AutoCode\ICommunionPicture.cs" />
+    <Compile Include="AutoCode\IErnie.cs" />
+    <Compile Include="AutoCode\IErnieItem.cs" />
+    <Compile Include="AutoCode\IHWTV.cs" />
+    <Compile Include="AutoCode\IInformation.cs" />
+    <Compile Include="AutoCode\IInformationAd.cs" />
+    <Compile Include="AutoCode\IInformationAdPicture.cs" />
+    <Compile Include="AutoCode\IInformationPicture.cs" />
+    <Compile Include="AutoCode\IInitItems.cs" />
+    <Compile Include="AutoCode\IPictureAdStartup.cs" />
+    <Compile Include="AutoCode\IPictureInformation.cs" />
+    <Compile Include="AutoCode\IPictureScratchLotto.cs" />
+    <Compile Include="AutoCode\IPlayerPicture.cs" />
+    <Compile Include="AutoCode\IPlayerPictureNew.cs" />
+    <Compile Include="AutoCode\IPrizePicture.cs" />
+    <Compile Include="AutoCode\IPushMsg.cs" />
+    <Compile Include="AutoCode\IPushUser.cs" />
+    <Compile Include="AutoCode\IUserBase.cs" />
+    <Compile Include="AutoCode\IUserErnie.cs" />
+    <Compile Include="AutoCode\IUserHeadPicture.cs" />
+    <Compile Include="AutoCode\IVoteToPlayer.cs" />
+    <Compile Include="AutoCode\IVoteToPlayerNew.cs" />
+    <Compile Include="AutoCode\IWinningRecord.cs" />
+    <Compile Include="IMyAdvertSubject.cs" />
+    <Compile Include="IMyActivityPrize.cs" />
+    <Compile Include="IMyInitItems.cs" />
+    <Compile Include="IMyActivityPhotoPicture.cs" />
+    <Compile Include="IMyActivityPlayerPhotoPicture.cs" />
+    <Compile Include="IMyActivitySignUp.cs" />
+    <Compile Include="IMyActivityPlayer.cs" />
+    <Compile Include="IMyActivitySubject.cs" />
+    <Compile Include="IMyActivityQuestionBank.cs" />
+    <Compile Include="IMyActivityRelease.cs" />
+    <Compile Include="IMyAnswerOption.cs" />
+    <Compile Include="IMyAnswerStatistics.cs" />
+    <Compile Include="IMyCommunionPicture.cs" />
+    <Compile Include="IMyErnie.cs" />
+    <Compile Include="IMyErnieItem.cs" />
+    <Compile Include="IMyHWTV.cs" />
+    <Compile Include="IMyPictureScratchLotto.cs" />
+    <Compile Include="IMyPlayerPictureNew.cs" />
+    <Compile Include="IMyQuestionBank.cs" />
+    <Compile Include="IMyQuestionSubject.cs" />
+    <Compile Include="IMyQXCLotteryNumber.cs" />
+    <Compile Include="IMyTopicComment.cs" />
+    <Compile Include="IMyTopicPicture.cs" />
+    <Compile Include="IMyTopicSubject.cs" />
+    <Compile Include="IMyTVProgram.cs" />
+    <Compile Include="AutoCode\IQuestionBank.cs" />
+    <Compile Include="AutoCode\IQuestionSubject.cs" />
+    <Compile Include="AutoCode\IQXCLotteryNumber.cs" />
+    <Compile Include="AutoCode\ISupplier.cs" />
+    <Compile Include="AutoCode\ITopicComment.cs" />
+    <Compile Include="AutoCode\ITopicPicture.cs" />
+    <Compile Include="AutoCode\ITopicSubject.cs" />
+    <Compile Include="AutoCode\ITVProgram.cs" />
+    <Compile Include="AutoCode\IUserRole.cs" />
+    <Compile Include="IMyUserBase.cs" />
+    <Compile Include="IMyUserErnie.cs" />
+    <Compile Include="IMyUserHeadPicture.cs" />
+    <Compile Include="IMyVoteToPlayer.cs" />
+    <Compile Include="IMyPrizePicture.cs" />
+    <Compile Include="IMyWinningRecord.cs" />
+    <Compile Include="IPictureAdStartup.cs" />
+    <Compile Include="IScratchLotto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IMyActivitySubjectNew.cs" />
+    <Compile Include="IMyActivityPlayerNew.cs" />
+    <Compile Include="IMyVoteToPlayerNew.cs" />
+    <Compile Include="IMyInformation.cs" />
+    <Compile Include="IMyInformationAd.cs" />
+    <Compile Include="IMyPictureInformation.cs" />
+    <Compile Include="IMyInformationPicture.cs" />
+    <Compile Include="IMyInformationAdPicture.cs" />
+    <Compile Include="IMyPushMsg.cs" />
+    <Compile Include="IMyPushUser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{387894b5-094e-47e0-833f-0f15248e14a5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

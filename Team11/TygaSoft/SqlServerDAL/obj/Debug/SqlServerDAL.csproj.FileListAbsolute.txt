@@ -1,0 +1,13 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.SqlServerDAL.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.SqlServerDAL.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.DBUtility.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.IDAL.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.Model.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.DBUtility.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.IDAL.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\bin\Debug\TygaSoft.Model.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\obj\Debug\SqlServerDAL.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\obj\Debug\SqlServerDAL.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\obj\Debug\SqlServerDAL.csproj.CopyComplete
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\obj\Debug\TygaSoft.SqlServerDAL.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SqlServerDAL\obj\Debug\TygaSoft.SqlServerDAL.pdb

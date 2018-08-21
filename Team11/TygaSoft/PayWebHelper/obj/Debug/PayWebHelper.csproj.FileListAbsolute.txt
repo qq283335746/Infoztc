@@ -1,0 +1,12 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\TygaSoft.PayWebHelper.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\TygaSoft.PayWebHelper.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\Newtonsoft.Json.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\TygaSoft.CustomExceptions.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\TygaSoft.SysHelper.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\TygaSoft.CustomExceptions.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\bin\Debug\TygaSoft.SysHelper.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\obj\Debug\PayWebHelper.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\obj\Debug\PayWebHelper.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\obj\Debug\PayWebHelper.csproj.CopyComplete
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\obj\Debug\TygaSoft.PayWebHelper.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\PayWebHelper\obj\Debug\TygaSoft.PayWebHelper.pdb
