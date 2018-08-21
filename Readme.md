@@ -17,5 +17,7 @@
 
 智能信息直通车截图如下：
 ![image](https://github.com/qq283335746/My/blob/master/MyImages/Hnztc_1.png)
+![image](https://github.com/qq283335746/My/blob/master/MyImages/Hnztc_2.png)
+![image](https://github.com/qq283335746/My/blob/master/MyImages/Hnztc_3.png)
 
 
