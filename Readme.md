@@ -10,4 +10,7 @@
 
 联系我们：我们提供定制化开发，为您的个性化做到最低劳力成本！qq:283335746，加qq时请说明来源是 “智能信息直通车”！
 
+智能信息直通车截图如下：
+![image](https://img-blog.csdn.net/20180821111529746?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NhZnVjMjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 
