@@ -8,9 +8,9 @@
 
 智能信息直通车是充分利用.net提供的各种机制和特性技术，所以您无需担心是使用vs2008还是使用vs2017，是使用.net4.0还是.net 4.7、.net standard、.net core，是使用sql server 2005还是sql server2016、sqlite、mysql、oracle来开发？实际上，只需您在您当前现有的开发环境中，按照我们提供的源码解决方案来新建解决方案和各个项目，而后将我们提供的源码复制到您建的解决方案中，稍作修改或无需任何修改，即可运行起来。
 
-联系我们：我们提供定制化开发，为您的个性化做到最低劳力成本！qq:283335746，加qq时请说明来源是 “智能信息直通车”！
+技术、业务、交流联系：qq:283335746，加qq时请说明来源是 “智能信息直通车”！
 
 智能信息直通车截图如下：
-![image](https://img-blog.csdn.net/20180821111529746?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NhZnVjMjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![image](https://github.com/qq283335746/My/blob/master/MyImages/Hnztc_1.png)
 
 
