@@ -1,0 +1,5 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\Model\bin\Debug\TygaSoft.Model.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\Model\bin\Debug\TygaSoft.Model.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\Model\obj\Debug\TygaSoft.Model.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\Model\obj\Debug\TygaSoft.Model.pdb

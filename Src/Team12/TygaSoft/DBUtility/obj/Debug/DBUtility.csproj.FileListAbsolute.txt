@@ -1,0 +1,6 @@
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\DBUtility\bin\Debug\TygaSoft.DBUtility.dll
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\DBUtility\bin\Debug\TygaSoft.DBUtility.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\DBUtility\obj\Debug\DBUtility.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\DBUtility\obj\Debug\TygaSoft.DBUtility.dll
+E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\DBUtility\obj\Debug\TygaSoft.DBUtility.pdb

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{387894B5-094E-47E0-833F-0F15248E14A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TygaSoft.Model</RootNamespace>
+    <AssemblyName>TygaSoft.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressInfo.cs" />
+    <Compile Include="AutoCode\AdBaseInfo.cs" />
+    <Compile Include="AutoCode\AdItemContentInfo.cs" />
+    <Compile Include="AutoCode\AdItemInfo.cs" />
+    <Compile Include="AutoCode\AdItemLinkInfo.cs" />
+    <Compile Include="AutoCode\AdvertisementInfo.cs" />
+    <Compile Include="AutoCode\AdvertisementItemInfo.cs" />
+    <Compile Include="AutoCode\AdvertisementLinkInfo.cs" />
+    <Compile Include="AutoCode\AdvertisementPictureInfo.cs" />
+    <Compile Include="AutoCode\AnnouncementInfo.cs" />
+    <Compile Include="AutoCode\BrandInfo.cs" />
+    <Compile Include="AutoCode\BrandProductInfo.cs" />
+    <Compile Include="AutoCode\CartInfo.cs" />
+    <Compile Include="AutoCode\CategoryBrandInfo.cs" />
+    <Compile Include="AutoCode\CategoryInfo.cs" />
+    <Compile Include="AutoCode\CategoryPictureInfo.cs" />
+    <Compile Include="AutoCode\CategoryProductInfo.cs" />
+    <Compile Include="AutoCode\ContentDetailInfo.cs" />
+    <Compile Include="AutoCode\ContentPictureInfo.cs" />
+    <Compile Include="AutoCode\ContentTypeInfo.cs" />
+    <Compile Include="AutoCode\MenuProductInfo.cs" />
+    <Compile Include="AutoCode\OrderRandomInfo.cs" />
+    <Compile Include="AutoCode\PictureBrandInfo.cs" />
+    <Compile Include="AutoCode\PictureCategoryInfo.cs" />
+    <Compile Include="AutoCode\PictureContentInfo.cs" />
+    <Compile Include="AutoCode\PictureProductInfo.cs" />
+    <Compile Include="AutoCode\PictureProductSizeInfo.cs" />
+    <Compile Include="AutoCode\PictureServiceContentInfo.cs" />
+    <Compile Include="AutoCode\PictureServiceItemInfo.cs" />
+    <Compile Include="AutoCode\PictureServiceLinkInfo.cs" />
+    <Compile Include="AutoCode\PictureServiceVoteInfo.cs" />
+    <Compile Include="AutoCode\ProductAttrTemplateInfo.cs" />
+    <Compile Include="AutoCode\ProfilesInfo.cs" />
+    <Compile Include="AutoCode\UserHeadPictureInfo.cs" />
+    <Compile Include="AutoCode\UserLevelProduceInfo.cs" />
+    <Compile Include="AutoCode\UserLevelViewInfo.cs" />
+    <Compile Include="AutoCode\UserSignInInfo.cs" />
+    <Compile Include="AutoCode\LineItemInfo.cs" />
+    <Compile Include="CartItemInfo.cs" />
+    <Compile Include="CreditCardInfo.cs" />
+    <Compile Include="MyAdBaseInfo.cs" />
+    <Compile Include="MyAdItemInfo.cs" />
+    <Compile Include="MyAdvertisementLinkInfo.cs" />
+    <Compile Include="MyBrandInfo.cs" />
+    <Compile Include="MyCartInfo.cs" />
+    <Compile Include="MyContentDetailInfo.cs" />
+    <Compile Include="MyContentTypeInfo.cs" />
+    <Compile Include="MyProductAttrInfo.cs" />
+    <Compile Include="MyProductImageInfo.cs" />
+    <Compile Include="MyProductInfo.cs" />
+    <Compile Include="MyProductItemInfo.cs" />
+    <Compile Include="MyProductSizeInfo.cs" />
+    <Compile Include="MyProductSizePictureInfo.cs" />
+    <Compile Include="MyServiceContentInfo.cs" />
+    <Compile Include="MyServiceItemInfo.cs" />
+    <Compile Include="MyServiceLinkInfo.cs" />
+    <Compile Include="MyServiceVoteInfo.cs" />
+    <Compile Include="AutoCode\NoticeInfo.cs" />
+    <Compile Include="AutoCode\OrderItemInfo.cs" />
+    <Compile Include="AutoCode\OrdersInfo.cs" />
+    <Compile Include="AutoCode\OrderStatusInfo.cs" />
+    <Compile Include="AutoCode\ProductAllInfo.cs" />
+    <Compile Include="AutoCode\ProductAttrInfo.cs" />
+    <Compile Include="AutoCode\ProductDetailInfo.cs" />
+    <Compile Include="AutoCode\ProductImageInfo.cs" />
+    <Compile Include="AutoCode\ProductInfo.cs" />
+    <Compile Include="AutoCode\ProductItemInfo.cs" />
+    <Compile Include="AutoCode\ProductPictureInfo.cs" />
+    <Compile Include="AutoCode\ProductSizeInfo.cs" />
+    <Compile Include="AutoCode\ProductSizePictureInfo.cs" />
+    <Compile Include="AutoCode\ProductStockInfo.cs" />
+    <Compile Include="MyUserBaseInfo.cs" />
+    <Compile Include="OrderInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AutoCode\ProvinceCityInfo.cs" />
+    <Compile Include="AutoCode\ResResultInfo.cs" />
+    <Compile Include="AutoCode\RoleInfo.cs" />
+    <Compile Include="AutoCode\ServiceContentInfo.cs" />
+    <Compile Include="AutoCode\ServiceItemInfo.cs" />
+    <Compile Include="AutoCode\ServiceLinkInfo.cs" />
+    <Compile Include="AutoCode\ServicePictureInfo.cs" />
+    <Compile Include="AutoCode\ServiceUnionInfo.cs" />
+    <Compile Include="AutoCode\ServiceUserPraiseInfo.cs" />
+    <Compile Include="AutoCode\ServiceUserVoleInfo.cs" />
+    <Compile Include="AutoCode\ServiceVoteInfo.cs" />
+    <Compile Include="AutoCode\SizePictureInfo.cs" />
+    <Compile Include="AutoCode\SupplierInfo.cs" />
+    <Compile Include="AutoCode\SysEnumInfo.cs" />
+    <Compile Include="AutoCode\SysLogInfo.cs" />
+    <Compile Include="AutoCode\UserBaseInfo.cs" />
+    <Compile Include="AutoCode\UserInfo.cs" />
+    <Compile Include="MyAdvertisementInfo.cs" />
+    <Compile Include="MyCategoryInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

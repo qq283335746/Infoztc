@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.mui_flex{display:-webkit-box!important;display:-webkit-flex!important;display:-ms-flexbox!important;display:flex!important;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.mui_flex,.mui_flex *,.mui_flex :after,.mui_flex :before{box-sizing:border-box;}
+.cell{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;width: 0;-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;max-width: 100%;display: block;padding: 0!important;position: relative;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+
+.wrap{ padding-top:0.1rem; min-height:100%; background:url(../images/body_bg.png) fixed no-repeat; background-size:100% 120%;}
+
+.win_box{ margin:0 auto; padding:0.3rem 0 0 0.4rem; width:2.68rem; height:1.31rem; background:url(../images/win_result.png) no-repeat; background-size:2.68rem 1.31rem;}
+.win_box li{ line-height:0.3rem; color:#fff;}
+.win_box li span{ padding-left:0.1rem; font-size:0.2rem;}
+.gold,.gold_ingots,.multiple{ display:inline-block; width:0.3rem; height:0.3rem; vertical-align:middle;}
+.gold{ background:url(../images/gold.png) no-repeat; background-size:0.3rem 0.3rem;}
+.gold_ingots{ background:url(../images/gold_ingots.png) no-repeat; background-size:0.3rem 0.3rem;}
+.multiple{ background:url(../images/multiple.png) no-repeat; background-size:0.3rem 0.3rem;}
+
+.prize_box{ text-align:center; font-size:0;}
+.prize_t{ display:inline-block; margin:0.1rem 0.15rem 0 0; width:2.61rem; height:0.7rem; background:url(../images/prize_t.png) no-repeat; background-size:2.61rem 0.7rem;}
+.prize_c{ position:relative; display:inline-block; margin:0 0.15rem 0 0; width:2.61rem; height:1.86rem; background:url(../images/prize_c.png) no-repeat; background-size:2.61rem 1.86rem;}
+.prize_b{display:inline-block; margin:0 0.15rem 0 0; width:2.61rem; min-height:0.9rem; background:url(../images/prize_b.png) 0 bottom no-repeat; background-size:2.61rem 1.04rem;}
+
+.stick_up{ position:absolute; right:-0.25rem; top:0.5rem; width:0.32rem; height:1.39rem; background:url(../images/stick_up.png) no-repeat; background-size:0.32rem 1.39rem;}
+.stick_up.down{background:url(../images/stick_down.png) no-repeat; background-size:0.32rem 1.39rem;}
+
+.prize_con{ padding:0.3rem 0 0;  text-align:center;}
+.prize_con li{ display:inline-block; margin:0 0.05rem; padding-top:0.2rem; width:0.58rem; height:1rem; vertical-align:top; background:url(../images/pb.png) no-repeat; background-size:0.58rem 1rem;}
+.prize_con li b{ display:block;padding-top:0.05rem; font-size:0.24rem;}
+
+.start_time{ padding:0.1rem 0; text-align:center; font-size:0.16rem; color:#fff;}
+.time_panel{ display:inline-block; margin-left:0.1rem; width:0.84rem; height:0.24rem; line-height:0.24rem; color:#ff0000; background:url(../images/time_bg.png) no-repeat; background-size:0.84rem 0.24rem;}
+
+.notice{ padding:0 0.2rem; }
+.notice h2{ height:0.3rem; line-height:0.3rem; font-size:0.2rem; font-weight:bold; color:#ffff01;}
+.notice p{ text-indent:2em; font-size:0.12rem; text-align:left; color:#fff;}

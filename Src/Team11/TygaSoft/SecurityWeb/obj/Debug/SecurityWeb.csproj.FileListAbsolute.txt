@@ -1,0 +1,7 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\bin\TygaSoft.SecurityWeb.dll.config
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\bin\TygaSoft.SecurityWeb.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\bin\TygaSoft.SecurityWeb.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\obj\Debug\SecurityWeb.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\obj\Debug\SecurityWeb.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\obj\Debug\TygaSoft.SecurityWeb.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\SecurityWeb\obj\Debug\TygaSoft.SecurityWeb.pdb

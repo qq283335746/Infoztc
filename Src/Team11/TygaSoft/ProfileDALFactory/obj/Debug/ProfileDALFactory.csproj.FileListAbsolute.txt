@@ -1,0 +1,11 @@
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\bin\Debug\TygaSoft.ProfileDALFactory.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\bin\Debug\TygaSoft.ProfileDALFactory.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\bin\Debug\TygaSoft.IProfile.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\bin\Debug\TygaSoft.Model.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\bin\Debug\TygaSoft.IProfile.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\bin\Debug\TygaSoft.Model.pdb
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\obj\Debug\ProfileDALFactory.csprojAssemblyReference.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\obj\Debug\ProfileDALFactory.csproj.CoreCompileInputs.cache
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\obj\Debug\ProfileDALFactory.csproj.CopyComplete
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\obj\Debug\TygaSoft.ProfileDALFactory.dll
+E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\ProfileDALFactory\obj\Debug\TygaSoft.ProfileDALFactory.pdb

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datas>
+  <Url>
+    <AliPayUrl>
+      <Add><![CDATA[]]></Add>
+    </AliPayUrl>
+  </Url>
+  <Data AppCode="Hnztc" AppName="海南直通车" IsDefault="1">
+    <Alipay IsDefault="1">
+      <BaseInfo>
+        <PID>2088911994568903</PID>
+      </BaseInfo>
+      <SecretKey>
+        <Partner>
+          <Rsa>
+            <Key><![CDATA[MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2bAnNySFBxLiCkW5PVlq1cxUALVik9X7ILFzX4SOL4ByaQboTEz2ERc/u1R11yc7N5ORdbbOoqHikOWrjzW5vlUzR6ftCiO+9OIumgNIAGRre7qxOgO7F0BIEaHv4eevEQK9b4qzhT7SU1TQPYb+B5l1vZP1VFyndVjLmv21dgQIDAQAB]]></Key>
+            <AlipayKey><![CDATA[MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB]]></AlipayKey>
+          </Rsa>
+        </Partner>
+        <Open></Open>
+      </SecretKey>
+    </Alipay>
+  </Data>
+</Datas>

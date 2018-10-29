@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+<form id="dlgFm" method="post">
+    <div class="fl">
+        <div class="row">
+            <span class="fl rl">所属类别：</span>
+            <div class="fl ml10">
+                <span id="lbParent"></span>
+                <input type="hidden" id="hParentId" name="hParentId" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="fl rl"><b class="cr">*</b>名称：</span>
+            <div class="fl ml10">
+                <input type="text" id="txtName" name="txtName" tabindex="1" maxlength="256" class="easyui-validatebox txt" data-options="required:true" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="fl rl"><b class="cr">*</b>代号：</span>
+            <div class="fl ml10">
+                <input type="text" id="txtCode" name="txtCode" tabindex="2" maxlength="256" class="easyui-validatebox txt" data-options="required:true" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="fl rl"><b class="cr">*</b>值：</span>
+            <div class="fl ml10">
+                <input type="text" id="txtValue" name="txtValue" tabindex="3" maxlength="256" class="easyui-validatebox txt" data-options="required:true" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="fl rl">排序：</span>
+            <div class="fl ml10">
+                <input type="text" id="txtSort" name="txtSort" tabindex="4" maxlength="9" class="easyui-validatebox txt" data-options="validType:'number'" />
+            </div>
+            <span class="clr"></span>
+        </div>
+        <div class="row mt10">
+            <span class="fl rl">备注：</span>
+            <div class="fl ml10">
+                <textarea id="txtRemark" name="txtRemark" cols="90" rows="2" tabindex="5" class="txtarea" style="width:293px;"></textarea>
+            </div>
+            <span class="clr"></span>
+        </div>
+    </div>
+    <div class="fl ml10" style="margin-top:30px;">
+        <img id="imgContentPicture" src="../../Images/nopic.gif" alt="上传图片" width="200px" height="210px" onclick="dlgFun.DlgSingle()" /><br />
+        <input type="hidden" />
+        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="dlgFun.DlgSingle()">选 择</a>
+    </div>
+    <span class="clr"></span>
+    <input type="hidden" id="hId" value="" />
+    <input type="hidden" id="hCurrExpandNode" value="" />
+</form>
+
+<div id="dlgUploadPicture" style="padding:10px;"></div>
+
+<div id="dlgSingleSelectPicture" class="easyui-dialog" title="选择图片" data-options="closed:true,modal:true,href:'/a/tyy.html?dlgId=dlgSingleSelectPicture&funName=ContentPicture',width:810,height:$(window).height()*0.9,
+buttons: [{
+	id:'btnSingleSelectContentPicture',text:'确定',iconCls:'icon-ok',handler:function(){
+        dlgFun.GetPicSelect();
+        $('#dlgSingleSelectPicture').dialog('close');
+	}
+}],
+toolbar:[{
+            id:'dlgSingleSelectPictureToolbarUpload',
+			text:'上传',
+			iconCls:'icon-add',
+			handler:function(){
+                dlgFun.DlgUpload();
+            }
+		}]
+" style="padding:10px;"></div>
+
+<script type="text/javascript">
+    var dlgFun = {
+
+        Add: function (node) {
+            $('#dlgFm').form('clear');
+            $('#lbParent').text(node.text);
+            $('#hParentId').val(node.id);
+            $('#hId').val("");
+            $("#hCurrExpandNode").val(node.id);
+            $('#imgContentPicture').attr("src", "../../Images/nopic.gif");
+            $('#imgContentPicture').parent().find("input[type=hidden]").val("");
+        },
+        Edit: function (node, t) {
+            $('#dlgFm').form('clear');
+            var parentName = "";
+            var parentNode = t.tree('getParent', node.target);
+            if (parentNode) parentName = parentNode.text;
+            $('#lbParent').text(parentName);
+            $('#txtName').val(node.text);
+            $('#txtCode').val(node.attributes.enumCode);
+            $('#txtValue').val(node.attributes.enumValue);
+            $('#txtSort').val(node.attributes.sort);
+            $('#txtRemark').val(node.attributes.remark);
+            $('#hParentId').val(node.attributes.parentId);
+            $('#hId').val(node.id);
+            $("#hCurrExpandNode").val(node.id);
+
+            if (node.attributes.pictureUrl != "") {
+                $('#imgContentPicture').attr("src", node.attributes.pictureUrl);
+                $('#imgContentPicture').parent().find("input[type=hidden]").val(node.attributes.pictureId);
+            }
+        },
+        GetPicSelect: function () {
+            var data = dlgSingleSelectPicture.GetPicSelect();
+            if (data.length > 0) {
+                var arr = data[0].split(",");
+                $("#imgContentPicture").attr("src",arr[1])
+                $("#imgContentPicture").parent().find("input[type=hidden]").val(arr[0]);
+                $("#dlgSingleSelectPicture").dialog('close');
+            }
+        },
+        DlgSingle: function () {
+            $("#dlgSingleSelectPicture").dialog('open');
+        },
+        DlgUpload: function () {
+            var dlgParentId = "dlgSingleSelectPicture";
+            var isMutil = false;
+            var h = $(window).height() * 0.9;
+            $("#dlgUploadPicture").dialog({
+                title: '上传文件',
+                width: 606,
+                height: h,
+                closed: false,
+                href: '/a/yyg.html?dlgId=dlgUploadPicture&funName=ContentPicture&isMutil=' + isMutil + '&dlgParentId=' + dlgParentId + '&submitUrl=/a/ygg.html',
+                modal: true,
+                buttons: [{
+                    id: 'btnOnUploadContentPicture',
+                    text: '上 传',
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        dlgUploadPicture.OnUpload();
+                    }
+                }, {
+                    id: 'btnCancelUploadContentPicture',
+                    text: '取 消',
+                    iconCls: 'icon-cancel',
+                    handler: function () {
+                        $("#dlgUploadPicture").dialog('close');
+                    }
+                }],
+                toolbar: [{
+                    id: 'btnAddTextbox',
+                    text: '添 加',
+                    iconCls: 'icon-add',
+                    handler: function () {
+                        dlgUploadPicture.OnToolbarAdd();
+                    }
+                }]
+            })
+        }
+    }
+</script>
+
+</body>
+</html>

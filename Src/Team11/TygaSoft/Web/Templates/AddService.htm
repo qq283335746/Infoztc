@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+<form id="dlgFm" method="post">
+    <div class="row">
+        <span class="fl rl">所属服务分类：</span>
+        <div class="fl ml10">
+            <span id="lbParent"></span>
+            <input type="hidden" id="hParentId" name="hParentId" />
+        </div>
+        <span class="clr"></span>
+    </div>
+    <div class="row mt10">
+        <span class="fl rl"><b class="cr">*</b>名称：</span>
+        <div class="fl ml10">
+            <input type="text" id="txtName" name="txtName" tabindex="1" maxlength="256" class="easyui-validatebox txt" data-options="required:true" />
+        </div>
+        <span class="clr"></span>
+    </div>
+    <div class="row mt10">
+        <span class="fl rl"><b class="cr">*</b>图片：</span>
+        <div class="fl ml10">
+            <img id="imgServicePicture" src="../../Images/nopic.gif" alt="上传图片" width="227px" height="143px" onclick="dlgFun.DlgSingle()" />
+            <input type="hidden" /><br />
+            <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="dlgFun.DlgSingle()">选 择</a>
+        </div>
+        <span class="clr"></span>
+    </div>
+    <div class="row mt10">
+        <span class="fl rl">排序：</span>
+        <div class="fl ml10">
+            <input type="text" id="txtSort" name="txtSort" tabindex="4" maxlength="9" class="easyui-validatebox txt" data-options="validType:'int'" />
+        </div>
+        <span class="clr"></span>
+    </div>
+    <div class="row mt10">
+        <span class="rl">有效时间：</span>
+        <div class="fl ml10">
+            <input id="txtEnableStartTime" class="easyui-datetimebox" style="width:160px;" />
+        </div>
+        <div class="fl mlr10"> 至 </div>
+        <div class="fl">
+            <input id="txtEnableEndTime" class="easyui-datetimebox" style="width:160px;" />
+        </div>
+        <span class="clr"></span>
+    </div>
+    <div class="row mt10">
+        <span class="rl">是否禁用：</span>
+        <div class="fl ml10">
+            <select id="cbbIsDisable" class="easyui-combobox" style="width:160px;">
+                <option value="0">否</option>
+                <option value="1">是</option>
+            </select>
+        </div>
+        <span class="clr"></span>
+    </div>
+    <input type="hidden" id="hId" value="" />
+</form>
+
+<div id="dlgUploadPicture" style="padding:10px;"></div>
+
+<div id="dlgSingleSelectPicture" class="easyui-dialog" title="选择图片" data-options="closed:true,modal:true,href:'/a/tyy.html?dlgId=dlgSingleSelectPicture&funName=ServicePicture',width:810,height:$(window).height()*0.9,
+buttons: [{
+	id:'btnSingleSelectServicePicture',text:'确定',iconCls:'icon-ok',handler:function(){
+        dlgFun.GetPicSelect();
+        $('#dlgSingleSelectPicture').dialog('close');
+	}
+},{
+    id:'btnCancelSelectServicePicture', text:'取消',iconCls:'icon-cancel',handler:function(){
+	    $('#dlgSingleSelectPicture').dialog('close');
+    }
+    }],
+toolbar:[{
+            id:'dlgSingleSelectPictureToolbarUpload',
+			text:'上传',
+			iconCls:'icon-add',
+			handler:function(){
+                dlgFun.DlgUpload();
+            }
+		}]
+" style="padding:10px;"></div>
+
+<script type="text/javascript">
+    var dlgFun = {
+        Init: function () {
+            $('#cbbIsDisable').combobox({
+                data: [{ "id": "0", "text": "否" }, { "id": "1", "text": "是"}],
+                valueField: 'id',
+                textField: 'text'
+            });
+            $("#cbbIsDisable").combobox('select', 1);
+        },
+        Add: function (node) {
+            $('#dlgFm').form('clear');
+            $('#lbParent').text(node.text);
+            $('#hParentId').val(node.id);
+            $('#hId').val("");
+            $("#hCurrExpandNode").val(node.id);
+            $("#imgServicePicture").attr("src", "../../Images/nopic.gif");
+            $("#imgServicePicture").parent().find("input[type=hidden]").val("");
+        },
+        Edit: function (node, t) {
+            $('#dlgFm').form('clear');
+            $("#imgServicePicture").attr("src", "../../Images/nopic.gif");
+            $("#imgServicePicture").parent().find("input[type=hidden]").val("");
+            var parentName = "";
+            var parentNode = t.tree('getParent', node.target);
+            if (parentNode) parentName = parentNode.text;
+            $('#lbParent').text(parentName);
+            $('#txtName').val(node.text);
+            $('#txtSort').val(node.attributes.Sort);
+            $("#imgServicePicture").attr("src", node.attributes.PictureUrl);
+            $("#imgServicePicture").parent().find("input[type=hidden]").val(node.attributes.PictureId);
+            $('#hParentId').val(node.attributes.ParentId);
+            $('#hId').val(node.id);
+            $("#hCurrExpandNode").val(node.id);
+        },
+        GetPicSelect: function () {
+            var data = dlgSingleSelectPicture.GetPicSelect();
+            if (data.length > 0) {
+                var arr = data[0].split(",");
+                $("#imgServicePicture").attr("src", arr[1])
+                $("#imgServicePicture").parent().find("input[type=hidden]").val(arr[0]);
+                $("#dlgSingleSelectPicture").dialog('close');
+            }
+        },
+        DlgSingle: function () {
+            $("#dlgSingleSelectPicture").dialog('open');
+        },
+        DlgUpload: function () {
+            var dlgParentId = "dlgSingleSelectPicture";
+            var isMutil = false;
+            var h = $(window).height() * 0.9;
+            $("#dlgUploadPicture").dialog({
+                title: '上传文件',
+                width: 606,
+                height: h,
+                closed: false,
+                href: '/a/yyg.html?dlgId=dlgUploadPicture&funName=ServicePicture&isMutil=' + isMutil + '&dlgParentId=' + dlgParentId + '&submitUrl=/a/yga.html',
+                modal: true,
+                buttons: [{
+                    id: 'btnOnUploadServicePicture',
+                    text: '上 传',
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        dlgUploadPicture.OnUpload();
+                    }
+                }, {
+                    id: 'btnCancelUploadServicePicture',
+                    text: '取 消',
+                    iconCls: 'icon-cancel',
+                    handler: function () {
+                        $("#dlgUploadPicture").dialog('close');
+                    }
+                }],
+                toolbar: [{
+                    id: 'btnAddTextbox',
+                    text: '添 加',
+                    iconCls: 'icon-add',
+                    handler: function () {
+                        dlgUploadPicture.OnToolbarAdd();
+                    }
+                }]
+            })
+        }
+    }
+
+    $(function () {
+        dlgFun.Init();
+    })
+</script>
+
+</body>
+</html>

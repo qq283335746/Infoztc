@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5AEFA6BC-C206-486A-B9BA-F384855CE2F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TygaSoft.BLL</RootNamespace>
+    <AssemblyName>TygaSoft.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCode\AdBase.cs" />
+    <Compile Include="AutoCode\AdItem.cs" />
+    <Compile Include="AutoCode\AdItemContent.cs" />
+    <Compile Include="AutoCode\AdItemLink.cs" />
+    <Compile Include="AutoCode\Advertisement.cs" />
+    <Compile Include="AutoCode\AdvertisementItem.cs" />
+    <Compile Include="AutoCode\AdvertisementLink.cs" />
+    <Compile Include="AutoCode\AdvertisementPicture.cs" />
+    <Compile Include="AutoCode\Announcement.cs" />
+    <Compile Include="AutoCode\Brand.cs" />
+    <Compile Include="AutoCode\BrandProduct.cs" />
+    <Compile Include="AutoCode\Cart.cs" />
+    <Compile Include="AutoCode\OrderRandom.cs" />
+    <Compile Include="AutoCode\PictureContent.cs" />
+    <Compile Include="AutoCode\UserLevelProduce.cs" />
+    <Compile Include="AutoCode\UserLevelView.cs" />
+    <Compile Include="CartItem.cs" />
+    <Compile Include="AutoCode\Category.cs" />
+    <Compile Include="AutoCode\CategoryBrand.cs" />
+    <Compile Include="AutoCode\CategoryPicture.cs" />
+    <Compile Include="AutoCode\CategoryProduct.cs" />
+    <Compile Include="AutoCode\ContentDetail.cs" />
+    <Compile Include="AutoCode\ContentPicture.cs" />
+    <Compile Include="AutoCode\ContentType.cs" />
+    <Compile Include="AutoCode\PictureBrand.cs" />
+    <Compile Include="AutoCode\PictureCategory.cs" />
+    <Compile Include="AutoCode\PictureProduct.cs" />
+    <Compile Include="AutoCode\PictureProductSize.cs" />
+    <Compile Include="AutoCode\PictureServiceContent.cs" />
+    <Compile Include="AutoCode\PictureServiceItem.cs" />
+    <Compile Include="AutoCode\PictureServiceLink.cs" />
+    <Compile Include="AutoCode\PictureServiceVote.cs" />
+    <Compile Include="AutoCode\ProductAttrTemplate.cs" />
+    <Compile Include="AutoCode\Profiles.cs" />
+    <Compile Include="AutoCode\UserHeadPicture.cs" />
+    <Compile Include="AutoCode\UserSignIn.cs" />
+    <Compile Include="MenuProduct.cs" />
+    <Compile Include="MyAdBase.cs" />
+    <Compile Include="MyAdItem.cs" />
+    <Compile Include="MyAdItemContent.cs" />
+    <Compile Include="MyAdItemLink.cs" />
+    <Compile Include="MyAdvertisementLink.cs" />
+    <Compile Include="MyAdvertisementPicture.cs" />
+    <Compile Include="MyAnnouncement.cs" />
+    <Compile Include="MyBrandProduct.cs" />
+    <Compile Include="MyCart.cs" />
+    <Compile Include="MyCategory.cs" />
+    <Compile Include="MyCategoryBrand.cs" />
+    <Compile Include="MyCategoryProduct.cs" />
+    <Compile Include="MyContentDetail.cs" />
+    <Compile Include="MyContentPicture.cs" />
+    <Compile Include="MyContentType.cs" />
+    <Compile Include="MyMenuProduct.cs" />
+    <Compile Include="MyNotice.cs" />
+    <Compile Include="MyPictureBrand.cs" />
+    <Compile Include="MyPictureCategory.cs" />
+    <Compile Include="MyPictureContent.cs" />
+    <Compile Include="MyPictureProduct.cs" />
+    <Compile Include="MyPictureProductSize.cs" />
+    <Compile Include="MyPictureServiceContent.cs" />
+    <Compile Include="MyPictureServiceItem.cs" />
+    <Compile Include="MyPictureServiceLink.cs" />
+    <Compile Include="MyPictureServiceVote.cs" />
+    <Compile Include="MyProduct.cs" />
+    <Compile Include="MyProductAttr.cs" />
+    <Compile Include="MyProductDetail.cs" />
+    <Compile Include="MyProductImage.cs" />
+    <Compile Include="MyProductItem.cs" />
+    <Compile Include="MyProductPicture.cs" />
+    <Compile Include="MyProductSize.cs" />
+    <Compile Include="MyProductSizePicture.cs" />
+    <Compile Include="MyProductStock.cs" />
+    <Compile Include="MyProvinceCity.cs" />
+    <Compile Include="MyServiceContent.cs" />
+    <Compile Include="MyServiceLink.cs" />
+    <Compile Include="MyServiceUserPraise.cs" />
+    <Compile Include="MyServiceUserVole.cs" />
+    <Compile Include="MyServiceVote.cs" />
+    <Compile Include="MySysEnum.cs" />
+    <Compile Include="AutoCode\Notice.cs" />
+    <Compile Include="AutoCode\OrderItem.cs" />
+    <Compile Include="AutoCode\Orders.cs" />
+    <Compile Include="AutoCode\OrderStatus.cs" />
+    <Compile Include="AutoCode\Product.cs" />
+    <Compile Include="AutoCode\ProductAttr.cs" />
+    <Compile Include="AutoCode\ProductDetail.cs" />
+    <Compile Include="AutoCode\ProductImage.cs" />
+    <Compile Include="AutoCode\ProductItem.cs" />
+    <Compile Include="AutoCode\ProductPicture.cs" />
+    <Compile Include="AutoCode\ProductSize.cs" />
+    <Compile Include="AutoCode\ProductSizePicture.cs" />
+    <Compile Include="AutoCode\ProductStock.cs" />
+    <Compile Include="MyUserBase.cs" />
+    <Compile Include="MyUserLevelProduce.cs" />
+    <Compile Include="MyUserSignIn.cs" />
+    <Compile Include="OrderCode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AutoCode\ProvinceCity.cs" />
+    <Compile Include="AutoCode\Role.cs" />
+    <Compile Include="AutoCode\ServiceContent.cs" />
+    <Compile Include="AutoCode\ServiceItem.cs" />
+    <Compile Include="AutoCode\ServiceLink.cs" />
+    <Compile Include="AutoCode\ServicePicture.cs" />
+    <Compile Include="AutoCode\ServiceUnion.cs" />
+    <Compile Include="AutoCode\ServiceUserPraise.cs" />
+    <Compile Include="AutoCode\ServiceUserVole.cs" />
+    <Compile Include="AutoCode\ServiceVote.cs" />
+    <Compile Include="AutoCode\SizePicture.cs" />
+    <Compile Include="AutoCode\Supplier.cs" />
+    <Compile Include="AutoCode\SysEnum.cs" />
+    <Compile Include="MyBrand.cs" />
+    <Compile Include="MyAdvertisement.cs" />
+    <Compile Include="MyServiceItem.cs" />
+    <Compile Include="AutoCode\SysLog.cs" />
+    <Compile Include="AutoCode\UserBase.cs" />
+    <Compile Include="RandomGenerator.cs" />
+    <Compile Include="MyUserLevelView.cs" />
+    <Compile Include="UserLevel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{B72F0F0D-48A7-4750-BF6B-D6996A04B2E1}</Project>
+      <Name>DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{437A3E96-72E1-47C5-BBB1-9E5FC3BE7BC6}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IMessaging\IMessaging.csproj">
+      <Project>{345B948E-4F49-4B1A-93E6-28273915F355}</Project>
+      <Name>IMessaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessagingFactory\MessagingFactory.csproj">
+      <Project>{3B9F9F11-E7BB-4426-ADF0-2D49033FB5CB}</Project>
+      <Name>MessagingFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{387894b5-094e-47e0-833f-0f15248e14a5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

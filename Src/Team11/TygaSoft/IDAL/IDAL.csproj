@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{437A3E96-72E1-47C5-BBB1-9E5FC3BE7BC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TygaSoft.IDAL</RootNamespace>
+    <AssemblyName>TygaSoft.IDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCode\IAdBase.cs" />
+    <Compile Include="AutoCode\IAdItem.cs" />
+    <Compile Include="AutoCode\IAdItemContent.cs" />
+    <Compile Include="AutoCode\IAdItemLink.cs" />
+    <Compile Include="AutoCode\IAdvertisement.cs" />
+    <Compile Include="AutoCode\IAdvertisementItem.cs" />
+    <Compile Include="AutoCode\IAdvertisementLink.cs" />
+    <Compile Include="AutoCode\IAdvertisementPicture.cs" />
+    <Compile Include="AutoCode\IAnnouncement.cs" />
+    <Compile Include="AutoCode\IBrand.cs" />
+    <Compile Include="AutoCode\IBrandProduct.cs" />
+    <Compile Include="AutoCode\ICart.cs" />
+    <Compile Include="AutoCode\ICategory.cs" />
+    <Compile Include="AutoCode\ICategoryBrand.cs" />
+    <Compile Include="AutoCode\ICategoryPicture.cs" />
+    <Compile Include="AutoCode\ICategoryProduct.cs" />
+    <Compile Include="AutoCode\IContentDetail.cs" />
+    <Compile Include="AutoCode\IContentPicture.cs" />
+    <Compile Include="AutoCode\IContentType.cs" />
+    <Compile Include="AutoCode\IMenuProduct.cs" />
+    <Compile Include="AutoCode\IOrderRandom.cs" />
+    <Compile Include="AutoCode\IPictureBrand.cs" />
+    <Compile Include="AutoCode\IPictureCategory.cs" />
+    <Compile Include="AutoCode\IPictureContent.cs" />
+    <Compile Include="AutoCode\IPictureProduct.cs" />
+    <Compile Include="AutoCode\IPictureProductSize.cs" />
+    <Compile Include="AutoCode\IPictureServiceContent.cs" />
+    <Compile Include="AutoCode\IPictureServiceItem.cs" />
+    <Compile Include="AutoCode\IPictureServiceLink.cs" />
+    <Compile Include="AutoCode\IPictureServiceVote.cs" />
+    <Compile Include="AutoCode\IProductAttrTemplate.cs" />
+    <Compile Include="AutoCode\IProfiles.cs" />
+    <Compile Include="AutoCode\IUserHeadPicture.cs" />
+    <Compile Include="AutoCode\IUserLevelProduce.cs" />
+    <Compile Include="AutoCode\IUserLevelView.cs" />
+    <Compile Include="AutoCode\IUserSignIn.cs" />
+    <Compile Include="IMyAdBase.cs" />
+    <Compile Include="IMyAdItem.cs" />
+    <Compile Include="IMyAdItemContent.cs" />
+    <Compile Include="IMyAdItemLink.cs" />
+    <Compile Include="IMyAdvertisementLink.cs" />
+    <Compile Include="IMyAdvertisementPicture.cs" />
+    <Compile Include="IMyAnnouncement.cs" />
+    <Compile Include="IMyBrand.cs" />
+    <Compile Include="IMyBrandProduct.cs" />
+    <Compile Include="IMyCart.cs" />
+    <Compile Include="IMyCategoryBrand.cs" />
+    <Compile Include="IMyCategoryProduct.cs" />
+    <Compile Include="IMyContentDetail.cs" />
+    <Compile Include="IMyContentType.cs" />
+    <Compile Include="IMyMenuProduct.cs" />
+    <Compile Include="IMyNotice.cs" />
+    <Compile Include="IMyPictureBrand.cs" />
+    <Compile Include="IMyPictureCategory.cs" />
+    <Compile Include="IMyPictureContent.cs" />
+    <Compile Include="IMyPictureProduct.cs" />
+    <Compile Include="IMyPictureProductSize.cs" />
+    <Compile Include="IMyPictureServiceContent.cs" />
+    <Compile Include="IMyPictureServiceItem.cs" />
+    <Compile Include="IMyPictureServiceLink.cs" />
+    <Compile Include="IMyPictureServiceVote.cs" />
+    <Compile Include="IMyProduct.cs" />
+    <Compile Include="IMyProductAttr.cs" />
+    <Compile Include="IMyProductDetail.cs" />
+    <Compile Include="IMyProductImage.cs" />
+    <Compile Include="IMyProductSize.cs" />
+    <Compile Include="IMyProductSizePicture.cs" />
+    <Compile Include="IMyProvinceCity.cs" />
+    <Compile Include="IMyServiceContent.cs" />
+    <Compile Include="IMyServiceLink.cs" />
+    <Compile Include="IMyServiceUserPraise.cs" />
+    <Compile Include="IMyServiceUserVole.cs" />
+    <Compile Include="IMyServiceVote.cs" />
+    <Compile Include="IMySysEnum.cs" />
+    <Compile Include="AutoCode\INotice.cs" />
+    <Compile Include="AutoCode\IOrderItem.cs" />
+    <Compile Include="AutoCode\IOrders.cs" />
+    <Compile Include="AutoCode\IOrderStatus.cs" />
+    <Compile Include="AutoCode\IProduct.cs" />
+    <Compile Include="AutoCode\IProductAttr.cs" />
+    <Compile Include="AutoCode\IProductDetail.cs" />
+    <Compile Include="AutoCode\IProductImage.cs" />
+    <Compile Include="AutoCode\IProductItem.cs" />
+    <Compile Include="AutoCode\IProductPicture.cs" />
+    <Compile Include="AutoCode\IProductSize.cs" />
+    <Compile Include="AutoCode\IProductSizePicture.cs" />
+    <Compile Include="AutoCode\IProductStock.cs" />
+    <Compile Include="AutoCode\IProvinceCity.cs" />
+    <Compile Include="AutoCode\IRole.cs" />
+    <Compile Include="AutoCode\IServiceContent.cs" />
+    <Compile Include="AutoCode\IServiceItem.cs" />
+    <Compile Include="AutoCode\IServiceLink.cs" />
+    <Compile Include="AutoCode\IServicePicture.cs" />
+    <Compile Include="AutoCode\IServiceUnion.cs" />
+    <Compile Include="AutoCode\IServiceUserPraise.cs" />
+    <Compile Include="AutoCode\IServiceUserVole.cs" />
+    <Compile Include="AutoCode\IServiceVote.cs" />
+    <Compile Include="AutoCode\ISizePicture.cs" />
+    <Compile Include="AutoCode\ISupplier.cs" />
+    <Compile Include="AutoCode\ISysEnum.cs" />
+    <Compile Include="IMyProductStock.cs" />
+    <Compile Include="AutoCode\ISysLog.cs" />
+    <Compile Include="AutoCode\IUserBase.cs" />
+    <Compile Include="IMyUserBase.cs" />
+    <Compile Include="IMyUserLevelProduce.cs" />
+    <Compile Include="IMyUserLevelView.cs" />
+    <Compile Include="IMyUserSignIn.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IMyProductItem.cs" />
+    <Compile Include="IMyAdvertisement.cs" />
+    <Compile Include="IMyServiceItem.cs" />
+    <Compile Include="IMyCategory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{387894b5-094e-47e0-833f-0f15248e14a5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

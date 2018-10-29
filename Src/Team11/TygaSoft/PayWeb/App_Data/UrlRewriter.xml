@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewriteRules>
+
+  <rewrite url="^(/)?$" to="~/Default.aspx" processing="stop" />
+  <if url="^/alipay">
+    <rewrite url="^/alipay/pay.html(.*)" to="~/Handlers/HandlerAlipay.ashx$1" processing="stop" />
+  </if>
+  
+</rewriteRules>

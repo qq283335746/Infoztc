@@ -1,0 +1,42 @@
+﻿
+.bg_lottery{
+ background:url('Images/bg_lottery.png') no-repeat; min-width:415px; max-width:480px; margin:0 auto;  padding-top: 15px;
+}
+.bg_dlgresult{
+ background:url('Images/bg_dlgresult.png') no-repeat; margin:0 auto;height:190px;
+}
+.bg_lotterybox{
+ background:url('Images/bg_lotterybox.png') no-repeat; margin:0 auto; height:603px;padding-top: 184px;padding-left: 38px;
+}
+.result_box{
+ padding: 38px;
+}
+.bg_yuanbao{
+ background:url('Images/yuanbao.png') no-repeat;height:46px;padding-left:62px; line-height:38px; color:White; font-size:24px;width: 260px;
+ margin: 0 auto;
+}
+.bg_jinbi{
+ background:url('Images/jinbi.png') no-repeat;height:46px; padding-left:56px; line-height:46px;color:White; font-size:24px; width: 260px;
+ margin: 0 auto;margin-top: 5px;
+}
+.lotterybox{
+ width:338px; height:235px;
+}
+.threebox li {
+ float: left;width: 74px; height: 140px;margin: 25px 0 0 28px;
+}
+.threebox li img {
+ margin: 25px 12px;width: 50px;height: 90px;
+}
+.countdown {
+ height:40px; width:284px; margin:0 auto; line-height:40px; margin-top:20px; 
+}
+.countdown_time {
+ color:#FF0000; font-size:24px; margin-right:20px;
+}
+.countdown_end {
+ height:40px; width:284px; margin:0 auto; line-height:40px; margin-top:20px; background:#065841;
+}
+.countdown_end .countdown_time {
+ color:#065841;
+}
