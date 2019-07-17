@@ -1,6 +1,0 @@
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\ICacheDependency\bin\Debug\TygaSoft.ICacheDependency.dll
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\ICacheDependency\bin\Debug\TygaSoft.ICacheDependency.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\ICacheDependency\obj\Debug\ICacheDependency.csprojAssemblyReference.cache
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\ICacheDependency\obj\Debug\ICacheDependency.csproj.CoreCompileInputs.cache
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\ICacheDependency\obj\Debug\TygaSoft.ICacheDependency.dll
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\ICacheDependency\obj\Debug\TygaSoft.ICacheDependency.pdb

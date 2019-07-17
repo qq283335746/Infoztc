@@ -1,7 +1,0 @@
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\bin\Debug\TygaSoft.WcfClient.exe.config
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\bin\Debug\TygaSoft.WcfClient.exe
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\bin\Debug\TygaSoft.WcfClient.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\obj\Debug\WcfClient.csprojAssemblyReference.cache
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\obj\Debug\WcfClient.csproj.CoreCompileInputs.cache
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\obj\Debug\TygaSoft.WcfClient.exe
-E:\CybCodes\MyGitHub\Infoztc\Team12\TygaSoft\WcfClient\obj\Debug\TygaSoft.WcfClient.pdb

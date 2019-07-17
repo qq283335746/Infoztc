@@ -1,9 +1,0 @@
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.TableCacheDependency.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.TableCacheDependency.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.ICacheDependency.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.ICacheDependency.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\obj\Debug\TableCacheDependency.csprojAssemblyReference.cache
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\obj\Debug\TableCacheDependency.csproj.CoreCompileInputs.cache
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\obj\Debug\TableCacheDependency.csproj.CopyComplete
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\obj\Debug\TygaSoft.TableCacheDependency.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\TableCacheDependency\obj\Debug\TygaSoft.TableCacheDependency.pdb

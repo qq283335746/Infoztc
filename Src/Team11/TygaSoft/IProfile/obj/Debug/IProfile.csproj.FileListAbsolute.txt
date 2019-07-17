@@ -1,9 +1,0 @@
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\bin\Debug\TygaSoft.IProfile.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\bin\Debug\TygaSoft.IProfile.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\bin\Debug\TygaSoft.Model.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\bin\Debug\TygaSoft.Model.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\obj\Debug\IProfile.csprojAssemblyReference.cache
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\obj\Debug\IProfile.csproj.CoreCompileInputs.cache
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\obj\Debug\IProfile.csproj.CopyComplete
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\obj\Debug\TygaSoft.IProfile.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\IProfile\obj\Debug\TygaSoft.IProfile.pdb

@@ -1,9 +1,0 @@
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.CacheDependencyFactory.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.CacheDependencyFactory.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.ICacheDependency.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.ICacheDependency.pdb
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\obj\Debug\CacheDependencyFactory.csprojAssemblyReference.cache
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\obj\Debug\CacheDependencyFactory.csproj.CoreCompileInputs.cache
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\obj\Debug\CacheDependencyFactory.csproj.CopyComplete
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\obj\Debug\TygaSoft.CacheDependencyFactory.dll
-E:\CybCodes\MyGitHub\Infoztc\Team11\TygaSoft\CacheDependencyFactory\obj\Debug\TygaSoft.CacheDependencyFactory.pdb
